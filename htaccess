@@ -1,0 +1,2 @@
+  1 RewriteEngine  on
+  2 RewriteRule (.*)$ http://<domain>/<path>/index.cgi?code=$1 [NC,L]
